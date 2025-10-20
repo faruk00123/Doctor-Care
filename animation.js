@@ -6,10 +6,11 @@ const animation = ScrollReveal({
 })
 
 animation.reveal('.hero-content, .heroimage, .service-content, .about-section, .footer-section', {
-    delay: 200,
+    delay: 100,
     origin: 'bottom'
 })
 animation.reveal('.stats-section', {
-    delay: 300,
+    delay: 200,
     origin: 'right'
+
 })
